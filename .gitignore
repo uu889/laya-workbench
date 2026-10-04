@@ -1,0 +1,21 @@
+# 本机配置，里面有接口密钥，不要提交
+config.json
+config.json.tmp
+.update-state.json
+.update-constraints.txt
+
+# 虚拟环境和缓存
+.venv/
+__pycache__/
+*.pyc
+
+# 打包产物
+dist/
+*.zip
+*.tar.gz
+
+# 编辑器和系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
